@@ -24,7 +24,7 @@
 
             steps {
 	      sshagent(['webtomcat-server']) {
-              sh "scp -o StrictHostKeyChecking=no  target/maven-web-application.war  ec2-user@3.80.28.76:/opt/tomcat9/webapps"
+              sh "scp -o StrictHostKeyChecking=no  target/maven-web-application.war  ec2-user@65.0.100.60:/opt/tomcat9/webapps"
 	      }
          }
         }
