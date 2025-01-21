@@ -1,4 +1,4 @@
-pipeline {
+ pipeline {
     // add your slave label name
     agent { label 'Myslavejenkins'}
     tools{
